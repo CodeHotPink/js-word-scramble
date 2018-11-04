@@ -107,6 +107,15 @@ console.log(checkFlavor(colorfulColors, candy))
 
 // Create a function that reverses a word
 
+function reverseString(anyString) {
+	let reversed = "";
+	for (let char of anyString) {
+		reversed = char + reversed;
+	}
+	return reversed;
+}
+console.log(reverseString('backwoods'))
+
 // Create a function that takes an array of words and returns a new array of the
  // words with each word reversed.
 
